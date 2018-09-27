@@ -1,0 +1,30 @@
+.encabezado img {
+    float: left;
+}
+.title{
+  margin-left: 10%
+}
+
+.formato{
+    font-style: italic;
+    margin: 1% 0;
+}
+
+.title p{
+    margin: -1% 0;
+}
+
+
+.contenido_principal{
+    clear: both;
+    margin: 5% 0% 0% -11%;
+    padding: 1% 0% 0% 0%;
+    width: 50%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(187, 186, 186);
+}
+
+.contenido_principal h3{
+    text-transform: uppercase;
+}
