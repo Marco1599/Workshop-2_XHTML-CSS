@@ -1,8 +1,11 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .encabezado img {
     float: left;
 }
 .title{
-  margin-left: 10%
+  margin-left: 9%;
 }
 
 .formato{
@@ -17,9 +20,9 @@
 
 .contenido_principal{
     clear: both;
-    margin: 5% 0% 0% -11%;
+    margin: 5% 0% 0% 0%;
     padding: 1% 0% 0% 0%;
-    width: 50%;
+    width: 40%;
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: rgb(187, 186, 186);
@@ -27,4 +30,23 @@
 
 .contenido_principal h3{
     text-transform: uppercase;
+}
+
+.contenido_secundario img{
+    position: absolute;
+    left: 41%;
+    top: 30%;
+    width: 30%;
+    border-bottom: #DAD4D3 10px solid;
+    border-left: #DAD4D3 2px solid;
+    border-right: #DAD4D3 2px solid;
+    border-top: #DAD4D3 2px solid;
+}
+
+p, ul{
+    font-size: 14px;
+}
+
+h3,h4{
+    font-size: 17px;
 }
